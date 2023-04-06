@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "BSides Halifax Quarantine Edition"
+title: "BSides Halifax"
 email: "info@halifaxbsides.ca"
 description: "BSides is a community-driven framework for building events for and by information security community members."
 baseurl: ""
