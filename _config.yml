@@ -98,15 +98,15 @@ ticketsTitle: "Tickets"
 ticketsInfo: "All proceeds go to Feed Nova Scotia"
 ticketsOffers:
 -
- name: "General Admittance"
- price: "$13.37"
- priceCurrency: "CAD"
+  name: "General Admittance"
+  price: "$13.37"
+  priceCurrency: "CAD"
   ticketsNumber: "50"
-#   ribbon: "-5%"
- buyButtonLink: "https://www.eventbrite.ca/e/bsides-halifax-2023-tickets-606005287127"
- buyButtonText: "Buy Now"
- ticketContentList: ["Donations accepted", "Access to amazing talks", "Our everlasting love and admiration", "All proceeds go to Feed Nova Scotia"]
-##   validFrom: "2014-08-25T10:00"
+  #   ribbon: "-5%"
+  buyButtonLink: "https://www.eventbrite.ca/e/bsides-halifax-2023-tickets-606005287127"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Donations accepted", "Access to amazing talks", "Our everlasting love and admiration", "All proceeds go to Feed Nova Scotia"]
+  ##   validFrom: "2014-08-25T10:00"
 
 # Footer
 socialLinks:
