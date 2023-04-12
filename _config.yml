@@ -6,7 +6,7 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'ALIAS']
 
 
 # Site Settings
@@ -130,8 +130,8 @@ footerBlocks:
   links:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
-## Speakers List Block
-#showSessions: false
+# Speakers List Block
+# showSessions: false
 
 ## Hackathon
 #hackathonTitle: "Hackathon"

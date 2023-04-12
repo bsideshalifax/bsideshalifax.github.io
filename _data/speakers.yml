@@ -33,3 +33,19 @@
   bio: "Working 20+ years doing a variety of IT roles"  
   thumbnailUrl: malcom.jpg
   rockstar: true
+-
+  id: 5
+  name: "Aastha"
+  title: ""
+  bio: "I am working as a Product Owner & a QA Manager for a cybersecurity firm BeyondTrust."  
+  thumbnailUrl: aastha.jpg
+  rockstar: true
+-
+  id: 6
+  name: "Leon"
+  surname: "Morris"
+  title: ""
+  bio: "College professor and Adjunct University Professor teaching Cybersecurity and other IT Programs to Indigenous youth (16-30).  Team Mentor for Indigenous team attending the 2023 CyberSci in Ottawa.  Cisco Field Engineer, cybersecurity auditor and investigator, and most importantly, Granddad to 3 wonderful boys and one beautiful little girl.  :)  SciFi geek, metal forger/welder/fabricator.  Jack of all trades, master of none."  
+  thumbnailUrl: leo.jpg
+  rockstar: true
+
