@@ -43,7 +43,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "https://forms.gle/Wpa65azBiQy5NGrG6", text: "Call for Papers"}
  #- {permalink: "/schedule/", text: "Schedule"}
- #- {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/2021", text: "Last Years Event"}
@@ -82,11 +82,11 @@ We look forward to seeing you in May!"
 #- {count: "8", specialCharacter: "", info: "speakers", detail: "from across North America"}
 #- {count: "24", specialCharacter: "", info: "hour", detail: "secure coding challange"}
 
-## Rockstar Speakers Block
-#rockstarSpeakersImage: "rockstar-speakers.jpg"
-#rockstarSpeakersCount: 3
-#rockstarSpeakersTitle: "Rockstar speakers"
-#rockstarSpeakersButtonText: "See all speakers"
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 3
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
 
 # Partners Block
 organizersTitle: "Organizers"
