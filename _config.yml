@@ -16,8 +16,8 @@ description: "BSides is a community-driven framework for building events for and
 baseurl: ""
 url: "https://halifaxbsides.ca"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-165605284-1"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
+googleAnalyticsTrackingId: G-C10M7K053W"
+googleAnalyticsSiteUrl: "www.bsideshalifax.ca"
 siteVerification: "U2vM0e028DKxBzX3zvCNmR2ZQk31oXU5asShWbU3Oqg"
 
 # Organizer Info
