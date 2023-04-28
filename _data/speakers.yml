@@ -48,4 +48,13 @@
   bio: "College professor and Adjunct University Professor teaching Cybersecurity and other IT Programs to Indigenous youth (16-30).  Team Mentor for Indigenous team attending the 2023 CyberSci in Ottawa.  Cisco Field Engineer, cybersecurity auditor and investigator, and most importantly, Granddad to 3 wonderful boys and one beautiful little girl.  :)  SciFi geek, metal forger/welder/fabricator.  Jack of all trades, master of none."  
   thumbnailUrl: leo.jpg
   rockstar: true
+-
+  id: 7
+  name: "Magnolia"
+  surname: "Logan"
+  title: ""
+  bio: "As an Information Security Specialist, Magno Logan specializes in various subjects, including Cloud, Container, Application Security Research, Threat Modeling, and Kubernetes Security. He boasts multiple international certifications and is a sought-after speaker at worldwide security conferences, presenting in countries such as Canada, the US, Brazil, and Europe. In addition to his professional accomplishments, Magno is the founder of the JampaSec Security Conference and the OWASP Paraiba Chapter. He has previously served as a Snyk Ambassador and member of the CNCF Security TAG, Kubernetes SIG Security, and OpenSSF."  
+  thumbnailUrl: "magno.png"
+  rockstar: true
 
+ 
