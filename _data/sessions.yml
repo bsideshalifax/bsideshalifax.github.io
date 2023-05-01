@@ -42,7 +42,7 @@
   id: 007
   title: "Re-imagining Security & Testing in the era of Digital Transformation"
   description: "Today there is almost no business that can operate without computers. All computers operate using software in the form of operating systems, applications, and the internet. Hence, we can say that computers are quintessential to the entire supply chain. On the downside, it is well-known that nearly all software contains loopholes of some type on some level. There are numerous hostile actors who expend huge efforts to look for such flaws & exploit those to their advantage. This results in major data breaches & hacks costing money & reputation to the company. The rate at which these cybersecurity breaches are increasing is brutal. With recent high-profile attacks targeting healthcare, finance, government, retail, energy, & manufacturing, it is evident that the threat landscape is expanding significantly every day. With such attacks making frequent headlines, security is on top of mind for every organization. Then, why when it comes to software development, security & testing is still an afterthought? In this presentation, we will look at it’s possible root causes and the measures that can be adopted by companies to challenge the status-quo to build a ‘safer tomorrow’. "
-  speakers: []
+  speakers: [5]
   language: en
 
 -
