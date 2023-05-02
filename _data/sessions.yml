@@ -14,9 +14,9 @@
 
 -
   id: 003
-  title: "Cybersecurity for Charities, NFP's and SOHO's."
-  description: "How not for profits, charities and small businesses need Cybersecurity.  What it means to be breached and the loses that they can incur.  What can be done, cheaply but effectively.  "
-  speakers: [6]
+  title: "GitHub Actions 101 - Creating a DevSecOps Pipeline"
+  description: "More organizations are applying a DevOps methodology to optimize software development. One of the main tools used in this process is a continuous integration (CI) tool that automates code changes from multiple developers working on the same project. In 2019, GitHub released its own CI tool called GitHub Actions. According to GitHub, GitHub Actions help you automate tasks within your software development life cycle, and it has been gaining a lot of adoption from developers. </br></br>This talk will demonstrate how GitHub Actions work and show security tools to protect your applications from attackers. First, we’ll dive deeply into the Actions, the language, and the runners, the servers provided by GitHub to run your Actions. Then, we’ll show how to run SAST, DAST, and SCA using open source or free tools into your pipeline just using GitHub Actions. We’ll set up Actions for each tool to scan our application for security vulnerabilities at every pull request."
+  speakers: [7]
   language: en
 
 -
@@ -69,13 +69,6 @@
 
 -
   id: 011
-  title: "GitHub Actions 101 - Creating a DevSecOps Pipeline"
-  description: "More organizations are applying a DevOps methodology to optimize software development. One of the main tools used in this process is a continuous integration (CI) tool that automates code changes from multiple developers working on the same project. In 2019, GitHub released its own CI tool called GitHub Actions. According to GitHub, GitHub Actions help you automate tasks within your software development life cycle, and it has been gaining a lot of adoption from developers. </br></br>This talk will demonstrate how GitHub Actions work and show security tools to protect your applications from attackers. First, we’ll dive deeply into the Actions, the language, and the runners, the servers provided by GitHub to run your Actions. Then, we’ll show how to run SAST, DAST, and SCA using open source or free tools into your pipeline just using GitHub Actions. We’ll set up Actions for each tool to scan our application for security vulnerabilities at every pull request."
-  speakers: [7]
-  language: en
-
--
-  id: 012
   title: "Closing Remarks"
   description: ""
   speakers: []
