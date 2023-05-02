@@ -8,7 +8,6 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'ALIAS']
 
-
 # Site Settings
 title: "BSides Halifax"
 email: "info@halifaxbsides.ca"
@@ -37,7 +36,6 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Documents
 c4sponsorsUrl: "/assets/BSides_HFX_Sponsorship_Kit.pdf"
 
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
@@ -45,7 +43,6 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
- #- {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/2021", text: "Last Years Event"}
 bottomNavigationLinks:
 - {link: "/assets/BSides_HFX_Sponsorship_Kit.pdf", text: "Become a sponsor"}
@@ -75,18 +72,33 @@ aboutBlock:
 We look forward to seeing you in May!"
 }
 
-## Statistic Block
-#statisticBlockImage: "statistic.jpg"
-#statisticBlock:
-#- {count: "4", specialCharacter: "+", info: "hours", detail: "of amazing talks"}
-#- {count: "8", specialCharacter: "", info: "speakers", detail: "from across North America"}
-#- {count: "24", specialCharacter: "", info: "hour", detail: "secure coding challange"}
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+- {count: "4", specialCharacter: "+", info: "hours", detail: "of amazing talks"}
+- {count: "6", specialCharacter: "", info: "speakers", detail: "from across North America"}
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Halifax Central Library"
+eventLocationLink: "https://www.halifaxpubliclibraries.ca/locations/SGA/"
+eventStreetAddress: "5440 Spring Garden Road"
+eventAddressLocality: "Halifax"
+eventAddressLocalityRegion: "Nova Scotia"
+eventPostalCode: "B3J 1E9"
+eventAddressCountry: "Canada"
+eventStartTime: "2023-05-04T9:00"
+eventDoorTime: "09:00"
+eventEndTime: "2023-05-04T18:00"
+eventPlaceCoordinates: "49.843237, 24.028751"
+mapCenterCoordinates: "49.842537, 24.025701"
+mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -102,11 +114,9 @@ ticketsOffers:
   price: "$13.37"
   priceCurrency: "CAD"
   ticketsNumber: "50"
-  #   ribbon: "-5%"
   buyButtonLink: "https://www.eventbrite.ca/e/bsides-halifax-2023-tickets-606005287127"
   buyButtonText: "Buy Now"
   ticketContentList: ["Donations accepted", "Access to amazing talks", "Our everlasting love and admiration", "All proceeds go to Feed Nova Scotia"]
-  ##   validFrom: "2014-08-25T10:00"
 
 # Footer
 socialLinks:
@@ -132,23 +142,3 @@ footerBlocks:
 
 # Speakers List Block
 # showSessions: false
-
-## Hackathon
-#hackathonTitle: "Hackathon"
-#enableHackathon: false
-
-# Hackathon About Block
-# aboutHackathonTitle: "CMD+CTRL"
-# hackathonRows:
-#    - {title: "", image: "hackathon-0.png", details: "<p>Stuck at home, but still want to test your skills in identifying web app vulnerabilities?  BSides Halifax and Security Innovation invite players to virtually compete in CMD+CTRL, a web application cyber range where players exploit their way through hundreds of vulnerabilities that lurk in business applications today.  Success means learning quickly that attack and defense is all about thinking on your feet.</p>
-# <p>For each vulnerability you uncover, you are awarded points. Climb the interactive leaderboard for a chance to win fantastic prizes! CMD+CTRL is ideal for development teams to train and develop skills, but anyone involved in keeping your organization’s data secure can play - from developers and managers and even CISOs.</p>
-# <p>All you need is your laptop and inner evil-doer!</p>
-# <br />
-# <p>Register early to reserve your spot and get a sneak peek at our cheat sheets and FAQs!</p>"}
-
-# Hackathon Prizes Block
-# prizesTitle: "Prizes"
-# prizes:
-#  - {title: "2nd Place", image: "prize-2.png", info: "Hak5 Bash Bunny"}
-#  - {title: "1st Place", image: "prize-1.jpg", info: "Hak5 WiFi Pineapple"}
-#  - {title: "3rd Place", image: "prize-3.jpg", info: "Hak5 Packet Squirrle"}
