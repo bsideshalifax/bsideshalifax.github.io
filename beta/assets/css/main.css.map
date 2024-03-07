@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../scss/main.scss"
+	],
+	"sourcesContent": [
+		".team {\n   text-align: left;\n\n   h3 {\n      margin-bottom: 26px;\n   }\n\n   h4 {\n      margin: 50px 0 20px;\n      text-align: center;\n   }\n\n   .zoe-effect {\n      height: 410px;\n\n      figure {\n         background-repeat: no-repeat;\n         background-size: cover;\n      }\n   }\n\n   .director {\n      min-height: 400px;\n   }\n\n   .headshot {\n      height: 325px;\n      overflow: hidden;\n\n      img {\n         width: 100%;\n      }\n   }\n\n   .bio {\n      margin-bottom: 5%;\n\n      span {\n         text-align: left;\n      }\n\n      h2 {\n         font-size: 16px;\n         margin: 0;\n         word-spacing: -2px;\n         text-transform: uppercase;\n         text-align: left;\n         font-weight: 200;\n\n         span {\n            font-weight: 600;\n         }\n      }\n   }\n}\nsection.footer {\n   ul {\n      padding: 0px;\n   }\n\n   li {\n      list-style: none;\n   }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,AAAC,CACH,UAAU,CAAE,IAAI,CAqDlB,AAtDD,AAGG,KAHE,CAGF,EAAE,AAAC,CACA,aAAa,CAAE,IAAI,CACrB,AALJ,AAOG,KAPE,CAOF,EAAE,AAAC,CACA,MAAM,CAAE,WAAW,CACnB,UAAU,CAAE,MAAM,CACpB,AAVJ,AAYG,KAZE,CAYF,WAAW,AAAC,CACT,MAAM,CAAE,KAAK,CAMf,AAnBJ,AAeM,KAfD,CAYF,WAAW,CAGR,MAAM,AAAC,CACJ,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,CACxB,AAlBP,AAqBG,KArBE,CAqBF,SAAS,AAAC,CACP,UAAU,CAAE,KAAK,CACnB,AAvBJ,AAyBG,KAzBE,CAyBF,SAAS,AAAC,CACP,MAAM,CAAE,KAAK,CACb,QAAQ,CAAE,MAAM,CAKlB,AAhCJ,AA6BM,KA7BD,CAyBF,SAAS,CAIN,GAAG,AAAC,CACD,KAAK,CAAE,IAAI,CACb,AA/BP,AAkCG,KAlCE,CAkCF,IAAI,AAAC,CACF,aAAa,CAAE,EAAE,CAkBnB,AArDJ,AAqCM,KArCD,CAkCF,IAAI,CAGD,IAAI,AAAC,CACF,UAAU,CAAE,IAAI,CAClB,AAvCP,AAyCM,KAzCD,CAkCF,IAAI,CAOD,EAAE,AAAC,CACA,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,CAAC,CACT,YAAY,CAAE,IAAI,CAClB,cAAc,CAAE,SAAS,CACzB,UAAU,CAAE,IAAI,CAChB,WAAW,CAAE,GAAG,CAKlB,AApDP,AAiDS,KAjDJ,CAkCF,IAAI,CAOD,EAAE,CAQC,IAAI,AAAC,CACF,WAAW,CAAE,GAAG,CAClB,AAIV,AACG,OADI,AAAA,OAAO,CACX,EAAE,AAAC,CACA,OAAO,CAAE,GAAG,CACd,AAHJ,AAKG,OALI,AAAA,OAAO,CAKX,EAAE,AAAC,CACA,UAAU,CAAE,IAAI,CAClB"
+}
