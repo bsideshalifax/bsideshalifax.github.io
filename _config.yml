@@ -16,7 +16,7 @@ baseurl: ""
 url: "https://halifaxbsides.ca"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: G-B3XXP113JE"
-googleAnalyticsSiteUrl: "www.bsideshalifax.ca"
+googleAnalyticsSiteUrl: "www.halifaxbsides.ca"
 siteVerification: "U2vM0e028DKxBzX3zvCNmR2ZQk31oXU5asShWbU3Oqg"
 
 # Organizer Info
@@ -122,7 +122,7 @@ ticketsOffers:
 socialLinks:
  - {link: "https://twitter.com/intent/user?screen_name=HalifaxBSides", icon: "twitter"}
  - {link: "https://discord.gg/aGzzj4B", icon: "site"}
- - {link: "https://github.com/bsideshalifax", icon: "github"}
+ - {link: "https://github.com/halifaxbsides", icon: "github"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
@@ -134,7 +134,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:info@bsideshalifax.ca", text: "info@bsideshalifax.ca", icon: "email"}
+   - {link: "mailto:info@halifaxbsides.ca", text: "info@halifaxbsides.ca", icon: "email"}
  -
   title: "Code of Conduct"
   links:
