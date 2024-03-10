@@ -320,8 +320,7 @@ time {
    }
 
    .headshot {
-      height: 250px;
-      overflow: hidden;
+      max-width: 300px;
 
       img {
          width: 100%;
