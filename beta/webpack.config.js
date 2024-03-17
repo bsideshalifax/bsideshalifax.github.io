@@ -9,7 +9,11 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
-    hot: true
+    hot: true,
+
+    client: {
+      overlay: false
+  }
   },
   module: {
     rules: [

@@ -381,6 +381,10 @@ time {
 
    .director {
       min-height: 400px;
+
+      .card {
+         width: 300px;
+      }
    }
 
    .headshot {
@@ -486,4 +490,24 @@ section.footer {
 
 .icon-stack-overflow:hover {
    fill: #ef7c02;
+}
+
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+$success: #7952b3;
+
+body {
+  padding: 3rem 1.5rem;
+}
+
+// Style Bootstrap icons
+.bi {
+  fill: currentcolor;
 }
