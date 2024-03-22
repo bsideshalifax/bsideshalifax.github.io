@@ -36,10 +36,10 @@ $icon-fill-color: #8b8b8b;
 
 // Sizes
 $min-section-height: 350px;
-$section-padding-top: 50px;
-$section-padding-bottom: 60px;
+$section-padding-top: 25px;
+$section-padding-bottom: 20px;
 $small-section-padding-top: 20px;
-$small-section-padding-bottom: 40px;
+$small-section-padding-bottom: 20px;
 
 // Global variables
 $base-transition: all .3s;
@@ -66,7 +66,6 @@ html {
 section {
    position: relative;
    overflow: hidden;
-   min-height: $min-section-height;
    padding-top: $section-padding-top;
    padding-bottom: $section-padding-bottom;
    text-align: center;
@@ -363,6 +362,7 @@ time {
 
    h3 {
       margin-bottom: 26px;
+      text-align: center;
    }
 
    h4 {
@@ -381,6 +381,7 @@ time {
 
    .director {
       min-height: 400px;
+      margin-bottom: 15px;
 
       .card {
          width: 300px;
@@ -510,4 +511,21 @@ body {
 // Style Bootstrap icons
 .bi {
   fill: currentcolor;
+}
+
+section.partners {
+   ul {
+      li {
+         list-style: none;
+      }
+   }
+
+   img {
+      width: 180px;
+      filter: grayscale(1);
+
+      &:hover {
+         filter:  none;
+      }
+   }
 }
