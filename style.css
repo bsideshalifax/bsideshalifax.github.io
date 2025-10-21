@@ -95,7 +95,8 @@ section { text-align: center; }
   color: var(--muted);
   font-size: .95rem;
 }
-/* Partners */
+/* Partners, Sponsors */
+.sponsors ul,
 .partners ul {
   list-style: none;
   padding: 0;
@@ -104,10 +105,12 @@ section { text-align: center; }
   flex-wrap: wrap;
   gap: 12px;
 }
+.sponsors img,
 .partners img {
   object-fit: contain;
   width: 180px;
 }
+section.sponsors li,
 section.partners li {
   display: inline-block;
   width: 100%;
@@ -138,4 +141,8 @@ section.partners li {
 }
 p {
   font-weight: 200;
+}
+.cfp-submit {
+    font-weight: bold;
+    font-size: 20px;
 }
