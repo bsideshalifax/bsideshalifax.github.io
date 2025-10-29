@@ -53,12 +53,27 @@
         <p class="lead">Halifax BSides is a non-profit organization run by members of the Halifax Technology and Information Security industry with a goal of running a yearly conference for experts, students, the curious and the confused not only to hear from others but also to provide them their chance to speak on topics that interest them. This year's conference will be November 14th and we look forward to sharing more with you as soon as possible.</p>
         <h4>When and Where</h4>
         <p class="lead">November 13th, Dalhousie University Faculty of Computer Science</p>
-        <h4>Call For Papers</h4>
-        
-        <p>We’re excited to announce that the Call for Papers (CFP) for Halifax BSides 2025 will be open from October 5thca to October 26th, 2025.</p>
-        <p>Halifax BSides is a community-driven information security conference held annually in Halifax, Nova Scotia. We welcome experts, students, and curious minds to share ideas, insights, and experiences on all aspects of information security.</p>
-        <p>If you have a talk idea—whether it’s a technical deep dive, case study, research project, or lessons learned—we encourage you to submit.</p>
-        <p><a class="cfp-submit" href="https://t.co/VAwAaJWugM" target="_blank">Submit Now!</a></p>
+            <h4 id="tickets-heading">Tickets</h4>
+            <div id="eventbrite-widget-container-1909686777559"></div>
+
+            <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+                var exampleCallback = function() {
+                    console.log('Order complete!');
+                };
+
+                window.EBWidgets.createWidget({
+                    // Required
+                    widgetType: 'checkout',
+                    eventId: '1909686777559',
+                    iframeContainerId: 'eventbrite-widget-container-1909686777559',
+
+                    // Optional
+                    iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                    onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                });
+            </script>
       </section>
 
       <!-- Tickets removed as requested -->
