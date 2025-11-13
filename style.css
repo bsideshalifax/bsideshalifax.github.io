@@ -146,3 +146,13 @@ p {
     font-weight: bold;
     font-size: 20px;
 }
+
+    .schedule{display:grid;gap:12px;margin-top:18px}
+    .item{
+      background:var(--card);border-radius:10px;padding:14px 16px;
+      box-shadow:0 1px 0 rgba(15,23,42,0.04);display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:start;
+    }
+    .time{font-weight:600;color:var(--accent);font-size:0.95rem}
+    .title{font-size:1rem;margin:0 0 6px}
+    .speaker{margin:0;color:var(--muted);font-weight:600}
+    .desc{margin:8px 0 0;color:#1f2937;font-size:0.95rem;white-space:pre-wrap}
