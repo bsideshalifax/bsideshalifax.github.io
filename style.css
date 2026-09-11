@@ -29,9 +29,13 @@ header {
   padding: 24px 0;
 }
 header img { height: 100px; }
-.lead {
-  color: var(--muted);
+.lead,
+.about p,
+.cfp-copy p,
+.cfp-copy li {
+  color: #111;
   font-size: 1.05rem;
+  font-weight: 400;
 }
 h1 {
   margin: .25rem 0 0;
@@ -140,12 +144,24 @@ section.partners li {
   border: 0;
 }
 p {
-  font-weight: 200;
+  font-weight: 400;
 }
 .cfp-submit {
     font-weight: bold;
     font-size: 20px;
 }
+.cfp { margin: 40px 0; }
+.cfp h2 { font-size: clamp(2rem, 5vw, 40px); }
+.cfp-copy {
+  margin: 24px 0;
+  text-align: left;
+}
+.cfp-copy h3 {
+  font-size: 1.5rem;
+  margin-top: 32px;
+}
+.cfp-copy ul { padding-left: 24px; }
+.cfp-copy li { margin: 6px 0; }
 
     .schedule{display:grid;gap:12px;margin-top:18px}
     .item{
