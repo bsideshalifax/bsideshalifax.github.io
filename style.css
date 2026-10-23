@@ -30,9 +30,7 @@ header {
 }
 header img { height: 100px; }
 .lead,
-.about p,
-.cfp-copy p,
-.cfp-copy li {
+.about p {
   color: #111;
   font-size: 1.05rem;
   font-weight: 400;
@@ -146,22 +144,33 @@ section.partners li {
 p {
   font-weight: 400;
 }
-.cfp-submit {
-    font-weight: bold;
-    font-size: 20px;
+.tickets {
+  margin: 40px 0;
+  padding: 24px;
+  background: #f0f6ff;
+  border-radius: 12px;
 }
-.cfp { margin: 40px 0; }
-.cfp h2 { font-size: clamp(2rem, 5vw, 40px); }
-.cfp-copy {
-  margin: 24px 0;
-  text-align: left;
+.tickets h2 {
+  margin-top: 0;
+  font-size: clamp(2rem, 5vw, 40px);
 }
-.cfp-copy h3 {
-  font-size: 1.5rem;
-  margin-top: 32px;
+.ticket-button {
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
 }
-.cfp-copy ul { padding-left: 24px; }
-.cfp-copy li { margin: 6px 0; }
+.ticket-button:hover { background: #084298; }
+.ticket-button:focus-visible {
+  outline: 3px solid #111;
+  outline-offset: 4px;
+}
 
     .schedule{display:grid;gap:12px;margin-top:18px}
     .item{
