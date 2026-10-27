@@ -117,6 +117,36 @@ section.partners li {
   display: inline-block;
   width: 100%;
 }
+/* Sponsor logos retain their original proportions on every screen size. */
+.sponsors { margin: 40px 0 56px; }
+.sponsors h2 { font-size: clamp(2rem, 5vw, 40px); }
+.sponsors ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+.sponsors a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
+.sponsors a.sponsor-dark { background: #18232e; }
+.sponsors a:hover { border-color: var(--accent); }
+.sponsors a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+.sponsors img {
+  display: block;
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
 /* Footer */
 .footer {
   background: #f8f9fa;
@@ -181,3 +211,30 @@ p {
     .title{font-size:1rem;margin:0 0 6px}
     .speaker{margin:0;color:var(--muted);font-weight:600}
     .desc{margin:8px 0 0;color:#1f2937;font-size:0.95rem;white-space:pre-wrap}
+
+/* Preliminary conference agenda */
+.agenda { margin: 40px 0 56px; }
+.agenda h2 { font-size: clamp(2rem, 5vw, 40px); }
+.agenda table {
+  width: 100%;
+  max-width: 850px;
+  margin: 24px auto 0;
+  border-collapse: collapse;
+  text-align: left;
+}
+.agenda th, .agenda td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #dee2e6;
+}
+.agenda thead { background: #f0f6ff; }
+.agenda tbody th { width: 35%; font-weight: 600; }
+.agenda tbody tr:nth-child(even) { background: #f8f9fa; }
+@media (max-width: 480px) {
+  .agenda th, .agenda td { padding: 12px 8px; font-size: .9rem; }
+  .agenda tbody th { width: 42%; }
+}
+
+.agenda .agenda-period {
+  margin: 32px 0 0;
+  font-size: 1.5rem;
+}
