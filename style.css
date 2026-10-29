@@ -238,3 +238,32 @@ p {
   margin: 32px 0 0;
   font-size: 1.5rem;
 }
+
+/* Announced speakers */
+.speakers { margin: 40px 0 56px; }
+.speakers h2 { font-size: clamp(2rem, 5vw, 40px); }
+.speaker-profile {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 24px;
+  padding: 24px;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  text-align: left;
+}
+.speaker-profile img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.speaker-profile h3 { margin: 0; font-size: 1.75rem; }
+.speaker-profile p { margin-bottom: 0; }
+@media (max-width: 700px) {
+  .speaker-profile { grid-template-columns: 1fr; }
+  .speaker-profile img { max-width: 280px; margin: 0 auto; }
+}
+
+.agenda .schedule-presenter {
+  display: inline-block;
+  margin-top: 4px;
+  color: #4b5563;
+  font-size: .95em;
+}
